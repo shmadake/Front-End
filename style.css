@@ -1,0 +1,172 @@
+.top{
+    display: flex;
+    padding: 10px;
+}
+
+.logo{
+display: inline-flex;
+min-width: 50%;
+flex-wrap: wrap;
+}
+
+.tile{
+    display: inline-flex;
+    gap: 20px;
+    min-width: 50%;
+    justify-content:flex-end;
+    align-items: center;
+    padding-right: 15px;
+    flex-wrap: wrap;
+}
+
+a{
+    color: black;
+    font-size: large;
+    text-decoration: none;
+}
+
+.log{
+    background-color: rgb(13, 110, 253);
+    border-radius: 10%;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+body{
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.carousel{
+    height: 60%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.features{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.col {
+    background-color: #d9e7ff;
+    padding: 10px;
+}
+
+.about{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: block;
+    font-size: large;
+}
+
+.history{
+    display: flex;
+    gap: 25px;
+    margin-bottom: 30px;
+    background-color: aqua;
+    padding: 15px;
+}
+
+.who{
+    display: flex;
+    gap: 25px;
+    margin-bottom: 30px;
+    background-color: aqua;
+    padding: 15px;
+}
+
+.what{
+    display: flex;
+    gap: 25px;
+    margin-bottom: 30px;
+    background-color: aqua;
+    padding: 15px;
+}
+
+.login{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media(max-width:960px){
+
+    .top{
+        display: block;
+    }
+
+    .tile{
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+        align-items: center;
+    }
+
+    .carousel{
+        display: flex;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .header{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .history{
+        display: block;
+    }
+
+    .history-img{
+        margin-bottom: 15px;
+    }
+
+    .who{
+        display: block;
+    }
+
+    .who-img{
+        margin-top: 15px;
+    }
+
+    .what{
+        display: block;
+    }
+
+    .what-img{
+        margin-bottom: 15px;
+    }
+
+    .img1{
+        width: 250px;
+        height: 250px;
+    }
+}
+
